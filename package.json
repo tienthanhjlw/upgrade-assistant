@@ -1,0 +1,22 @@
+{
+  "name": "@tienthanh.jlw/upgrade-assistant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/commander.js",
+    "build": "npx tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thanh",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "execa": "^9.1.0",
+    "inquirer": "^9.2.21"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "typescript": "^5.4.5"
+  },
+  "description": ""
+}
